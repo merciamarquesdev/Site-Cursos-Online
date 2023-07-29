@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1900px;
+    min-height: 100vh;
+    position: relative;
+    margin: auto;
+    font-family: 'Josefin Sans', sans-serif;
+}
+/* --------- HEADER INICIO ---------- */
+header {
+    background-color: #11143A;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.logo {
+    text-decoration: none;
+    color: #45e5e4;
+    padding-right: 150px;
+}
+
+header nav {
+    height: 100%;
+}
+
+header nav ul{
+    height: 100%;
+    font-size: 12px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.link-menu {
+    color: white;
+    text-decoration: none;
+    padding: 26.2px 20px;
+}
+
+.link-menu:hover {
+    background-color: #1e3574;
+}
+
+.botao-login {
+    border: none;
+    background: none;
+    color: #45e5e4;
+    padding-right: 20px;
+    font-size: 13px;
+}
+
+.botao-login:hover {
+    color: #718edb;
+}
+
+.botao {
+    border: none;
+    border-radius: 8px;
+    background-color: #45e5e4;
+    padding: 10px 15px;
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.botao:hover {
+    background-color: #6fa7cc;
+}
+/* ----- HEADER FIM --------*/
+
+/* ----- SOBRE NÓS INICIO -----*/
+.pag-sobre-nos-title {
+    padding-top: 50px;
+    margin: auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    line-height: 30px;
+    gap: 20px;
+}
+
+.pag-sobre-nos-title p{
+    width: 550px;
+    padding-bottom: 20px;
+}
+
+.pag-sobre-nos{
+    padding-top: 50px;
+    padding-bottom: 180px;
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.pag-sobre-nos h1 {
+    color: #11143A;
+    display: inline;
+}
+
+.pag-sobre-nos h1 + h1 {
+    color: #038584
+}
+
+.pag-sobre-nos h2 {
+    color: #038584;
+    display: inline;
+    
+}
+
+.campo-nossa-missao {
+    margin:auto;
+    padding: 50px;
+    width:400px;
+    height:350px;
+    float:left;
+    background-color: #11143A;
+    border-radius: 60px;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+
+.campo-imagem {
+    margin:auto;
+    width:400px;
+    height:350px;
+    padding-left:40px;
+    float:right;
+}
+
+.campo-imagem img{
+    margin:auto;
+    border-radius: 40px;
+}
+
+.sobre-nos .botao {
+    width: 65%;
+}
+
+/* ----- SOBRE NÓS FIM ----- */
+
+/* ----- FOOTER INICIO ----- */
+footer {
+    position: absolute;
+    box-sizing: border-box;
+    bottom: 0;
+    background-color: #11143A;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    color: white;
+    font-size: 10px;
+}
+
+/* ----- FOOTER FIM ----- */
+
+/* ----- MEDIA QUERY INICIO ----- */
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .link-menu {
+        padding: 26.2px 7px;
+        font-size: 11px;
+    }
+    .botao-login {
+        padding-right: 6px;
+        font-size: 12px;
+    }
+    .logo {
+        color: #45e5e4;
+        padding-right: 80px;
+        font-size: 25px;
+    }
+    header .botao {
+        padding: 10px 6px;
+    }
+    
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .logo {
+        display: none;
+    }
+    .link-menu {
+        font-size: 12px;
+        padding: 26.2px 6px;
+    }
+    footer {
+        justify-content: center;
+    }
+    .link-cadastro {
+        text-align: center;
+        padding: 10px 10px;
+    }
+    .botao-login {
+        font-size: 12px;
+        padding-right: 5px;
+    }
+}
+/* ----- MEDIA QUERY FIM ----- */
