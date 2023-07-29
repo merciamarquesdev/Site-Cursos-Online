@@ -53,12 +53,15 @@ header nav ul{
 .botao-login {
     border: none;
     background: none;
-    color: #45e5e4;
     padding-right: 20px;
     font-size: 13px;
 }
+.link-login {
+    color: #45e5e4;
+    text-decoration: none;
+}
 
-.botao-login:hover {
+.link-login:hover {
     color: #718edb;
 }
 
