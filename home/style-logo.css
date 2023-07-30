@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1900px;
+    min-height: 100vh;
+    position: relative;
+    margin: auto;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #11143A;
+    /* font-family: 'Roboto', sans-serif; */
+}
+/* --------- HEADER INICIO ---------- */
+header {
+    background-color: #11143A;
+    height: 70px;
+    /* max-height: 200px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.logo {
+    text-decoration: none;
+    color: #45e5e4;
+    padding-right: 150px;
+}
+
+header nav {
+    height: 100%;
+}
+
+header nav ul{
+    height: 100%;
+    font-size: 12px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.link-menu {
+    color: white;
+    text-decoration: none;
+    padding: 26.2px 20px;
+}
+
+.link-menu:hover {
+    background-color: #1e3574;
+}
+
+.botao-login {
+    border: none;
+    background: none;
+    padding-right: 20px;
+    font-size: 13px;
+}
+.link-login {
+    color: #45e5e4;
+    text-decoration: none;
+}
+
+.link-login:hover {
+    color: #718edb;
+}
+
+.botao {
+    border: none;
+    border-radius: 8px;
+    background-color: #45e5e4;
+    padding: 10px 15px;
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.botao:hover {
+    background-color: #6fa7cc;
+}
+/* ----- HEADER FIM --------*/
+
+/* ----- HOME INICIO -----*/
+.container-home {
+    background-color: #11143A;
+}
+
+.texto-home {
+    text-align: left;
+}
+
+.cor-titulo {
+    color: #45e5e4;
+}
+.botao-cta {
+    font-size: 16px;
+    margin-top: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+.contato-msg {
+    min-height: 200px;
+    margin: auto;
+    text-align: left;
+}
+.contato {
+    color: white;
+    font-size: 16px;
+}
+/* ----- HOME FIM ----- */
+
+/* ----- FOOTER INICIO ----- */
+footer {
+    position: absolute;
+    box-sizing: border-box;
+    bottom: 0;
+    background-color: white;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    color: black;
+    font-size: 10px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* ----- FOOTER FIM ----- */
+
+/* ----- MEDIA QUERY INICIO ----- */
+
+@media (min-width: 571px) and (max-width: 768px) {
+    .link-menu {
+        padding: 26.2px 7px;
+        font-size: 11px;
+    }
+    .botao-login {
+        padding-right: 6px;
+        font-size: 12px;
+    }
+    .logo {
+        color: #45e5e4;
+        padding-right: 80px;
+        font-size: 25px;
+    }
+    header .botao {
+        padding: 10px 6px;
+    }
+    
+}
+
+@media (min-width: 320px) and (max-width: 570px) {
+    .logo {
+        display: none;
+    }
+    .link-menu {
+        font-size: 12px;
+        padding: 26.2px 6px;
+    }
+    footer {
+        justify-content: center;
+    }
+    .link-cadastro {
+        text-align: center;
+        padding: 10px 10px;
+    }
+    .botao-login {
+        font-size: 12px;
+        padding-right: 5px;
+    }
+}
+/* ----- MEDIA QUERY FIM ----- */
