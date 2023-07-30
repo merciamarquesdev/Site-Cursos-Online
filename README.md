@@ -6,7 +6,6 @@ Projeto de conclusão do Módulo FrontEnd Estático do curso de desenvolvimento 
 Grupo 3 da Turma 1004:<p>
 <a href="https://github.com/mercietc">Mercia Marques</a>,
 <a href="https://github.com/livyuka">Livia Tanaka</a>,
-<a href="https://github.com/">Loh Savino</a>,
 <a href="https://github.com/matheuskiyoshi">Matheus Kiyoshi</a>.
 
 <h2>Tecnologias utilizadas</h2>
