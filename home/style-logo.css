@@ -9,7 +9,10 @@ body {
     position: relative;
     margin: auto;
     font-family: 'Josefin Sans', sans-serif;
+<<<<<<< HEAD
     background-color: #11143A;
+=======
+>>>>>>> 0e92ab9 (criando nova branch home)
     /* font-family: 'Roboto', sans-serif; */
 }
 /* --------- HEADER INICIO ---------- */
@@ -83,6 +86,7 @@ header nav ul{
 
 /* ----- HOME INICIO -----*/
 .container-home {
+<<<<<<< HEAD
     background-color: #11143A;
 }
 
@@ -108,6 +112,12 @@ header nav ul{
 .contato {
     color: white;
     font-size: 16px;
+=======
+    /* background-color: #11143A; */
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+>>>>>>> 0e92ab9 (criando nova branch home)
 }
 /* ----- HOME FIM ----- */
 
@@ -116,7 +126,11 @@ footer {
     position: absolute;
     box-sizing: border-box;
     bottom: 0;
+<<<<<<< HEAD
     background-color: white;
+=======
+    background-color: #11143A;
+>>>>>>> 0e92ab9 (criando nova branch home)
     height: 70px;
     width: 100%;
     display: flex;
@@ -127,15 +141,22 @@ footer {
     font-size: 10px;
 }
 
+<<<<<<< HEAD
 footer p {
     margin: 0;
 }
 
+=======
+>>>>>>> 0e92ab9 (criando nova branch home)
 /* ----- FOOTER FIM ----- */
 
 /* ----- MEDIA QUERY INICIO ----- */
 
+<<<<<<< HEAD
 @media (min-width: 571px) and (max-width: 768px) {
+=======
+@media (min-width: 481px) and (max-width: 768px) {
+>>>>>>> 0e92ab9 (criando nova branch home)
     .link-menu {
         padding: 26.2px 7px;
         font-size: 11px;
@@ -155,7 +176,11 @@ footer p {
     
 }
 
+<<<<<<< HEAD
 @media (min-width: 320px) and (max-width: 570px) {
+=======
+@media (min-width: 320px) and (max-width: 480px) {
+>>>>>>> 0e92ab9 (criando nova branch home)
     .logo {
         display: none;
     }
