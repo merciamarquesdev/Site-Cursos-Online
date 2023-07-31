@@ -9,6 +9,7 @@ body {
     position: relative;
     margin: auto;
     font-family: 'Josefin Sans', sans-serif;
+    background-color: #11143A;
     /* font-family: 'Roboto', sans-serif; */
 }
 /* --------- HEADER INICIO ---------- */
@@ -82,10 +83,31 @@ header nav ul{
 
 /* ----- HOME INICIO -----*/
 .container-home {
-    /* background-color: #11143A; */
-    width: 100vw;
-    height: 100vh;
-    background-color: white;
+    background-color: #11143A;
+}
+
+.texto-home {
+    text-align: left;
+}
+
+.cor-titulo {
+    color: #45e5e4;
+}
+.botao-cta {
+    font-size: 16px;
+    margin-top: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+.contato-msg {
+    min-height: 200px;
+    margin: auto;
+    text-align: left;
+}
+.contato {
+    color: white;
+    font-size: 16px;
 }
 /* ----- HOME FIM ----- */
 
@@ -94,7 +116,7 @@ footer {
     position: absolute;
     box-sizing: border-box;
     bottom: 0;
-    background-color: #11143A;
+    background-color: white;
     height: 70px;
     width: 100%;
     display: flex;
@@ -105,11 +127,15 @@ footer {
     font-size: 10px;
 }
 
+footer p {
+    margin: 0;
+}
+
 /* ----- FOOTER FIM ----- */
 
 /* ----- MEDIA QUERY INICIO ----- */
 
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 571px) and (max-width: 768px) {
     .link-menu {
         padding: 26.2px 7px;
         font-size: 11px;
@@ -129,7 +155,7 @@ footer {
     
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 570px) {
     .logo {
         display: none;
     }
